@@ -1,6 +1,11 @@
 <!doctype html>
 <html>
 <head>
+  <script>
+  if (window.location.search) {
+    window.history.replaceState({}, document.title, window.location.pathname);
+  }
+</script>
   <meta charset="UTF-8">
   <title>Believe The Fiction</title>
   <style>
