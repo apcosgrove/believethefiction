@@ -33,6 +33,26 @@
     a.button:hover {
       background: #ff8533;
     }
+    .tagline-bubble{
+  display: inline-block;
+  text-align: center;
+
+  padding: 14px 18px;
+  margin: 18px auto;
+
+  border-radius: 18px;
+
+  background: rgba(15, 15, 18, 0.65);      /* dark "glass" */
+  border: 1px solid rgba(255, 170, 70, 0.35); /* warm ember edge */
+  box-shadow: 0 10px 24px rgba(0,0,0,0.25);
+
+  backdrop-filter: blur(6px);
+}
+
+.tagline-bubble p{
+  margin: 6px 0;
+}
+
   </style>
 </head>
 <body>
@@ -40,11 +60,12 @@
   <img src="EmberKeeper.png" alt="Book Cover">
   <p class="tagline">
   
-  <div class="center-text">
-  <p>Don't believe the hype, believe the fiction.</p>
-  <p>Keep it secret. Keep it safe.</p>
+  <div class="tagline-bubble">
+  <p>Keep it secret.</p>
+  <p>Keep it safe.</p>
   <p>The universe depends on it.</p>
   </div>
+
             
   </p>
   <br>
